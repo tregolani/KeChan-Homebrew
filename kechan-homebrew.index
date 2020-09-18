@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+  <info>
+    <name>KeChan Homebrew Collection</name>
+	<description>A collection of homebrew stuff for Ke-Chan</description>
+	<author>"Tregolani"</author>  
+    <update version="1.0">
+      <file name="kechan-homebrew.index" url="https://raw.githubusercontent.com/tregolani/KeChan-Homebrew/master/kechan-homebrew.index" />
+    </update>
+  </info>
+  <files>
+	<file name="kechan-source.xml" url="https://raw.githubusercontent.com/tregolani/KeChan-Homebrew/master/kechan-source.xml" />
+	<file name="kechan-revised-classes.xml" url="https://raw.githubusercontent.com/tregolani/KeChan-Homebrew/master/kechan-revised-classes.xml" />
+	<file name="kechan-weapons-armor-items.xml" url="https://raw.githubusercontent.com/tregolani/KeChain-Homebrew/master/kechan-weapons-armor-items.xml" />
+  </files>
+</index>
