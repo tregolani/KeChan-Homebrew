@@ -4,7 +4,7 @@
     <name>KeChan Homebrew Collection</name>
 	<description>A collection of homebrew stuff for Ke-Chan</description>
 	<author>"Tregolani"</author>  
-    <update version="1.1">
+    <update version="1.2">
       <file name="kechan-homebrew.index" url="https://raw.githubusercontent.com/tregolani/KeChan-Homebrew/master/kechan-homebrew.index" />
     </update>
   </info>
