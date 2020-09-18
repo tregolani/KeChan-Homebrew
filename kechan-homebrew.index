@@ -10,6 +10,6 @@
   </info>
   <files>
 	<file name="kechan-source.xml" url="https://raw.githubusercontent.com/tregolani/KeChan-Homebrew/master/kechan-source.xml" />
-	<file name="kechan-weapons-armor-items.xml" url="https://raw.githubusercontent.com/tregolani/KeChain-Homebrew/master/kechan-weapons-armor-items.xml" />
+	<file name="kechan-weapons-armor-items.xml" url="https://raw.githubusercontent.com/tregolani/KeChan-Homebrew/master/kechan-weapons-armor-items.xml" />
   </files>
 </index>
