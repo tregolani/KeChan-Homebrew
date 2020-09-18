@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>KeChan Weapons, Armors, and Items</name>
+    <description>Magical weapons, armors, and items for KeChan's personal use</description>
+    <author>Homebrew</author>
+    <update version="1.0">
+      <file name="kechan-weapons-armor-items.xml" url="https://raw.githubusercontent.com/tregolani/KeChan-Homebrew/master/kechan-weapons-armor-items.xml" />
+    </update>
+  </info>
+  	<element name="Blessed Bracers" type="Magic Item" source="KeChan Homebrew Collection" id="ID_KECHAN_HB_MAGIC_ITEM_BLESSED BRACERS">
+		<description>
+			<p>These simple studded leather bracers have the holy symbol of Procan emblazoned into the leather. Those who wear them can feel the power of his blessing coursing through their mind and body.</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="0">1 lb.</set>
+			<set name="slot">arms</set>
+			<set name="type">Wondrous Item</set>
+			<set name="attunement">true</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+    <rules>
+ 			<stat name="insight:misc" value="4" />
+      <stat name="religion:misc" value="4" />
+			<stat name="ac:misc" value="2" />
+	</element>
+</elements>
