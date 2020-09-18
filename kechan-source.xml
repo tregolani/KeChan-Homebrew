@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.1">
+			<file name="kechan-source.xml" url="https://raw.githubusercontent.com/tregolani/KeChan-Homebrew/master/kechan-source.xml" />
+		</update>
+	</info>
+	<element name="KeChan Homebrew Collection" type="Source" source="Personal Homebrew" id="ID_KECHAN_HOMEBREW_SOURCE">
+		<description>
+        <![CDATA[<p>This is a collection of personal homebrew created for KeChan and her DnD campaigns. Currently included in the collection are: </p>
+      			<ul>
+              <li><strong>Items:</strong> Blessed Bracers</li>
+              <li><strong>Spells:</strong> </li>
+              <li><strong>Classes:</strong> </li>
+              <li><strong>Subclasses:</strong> </li>
+            </ul>]]>
+      </description>
+		<setters>
+			<set name="abbreviation">KCHBC20200918</set>
+      			<set name="author">Tregolani</set>
+			<set name="url"></set>
+			<set name="official">false</set>
+			<set name="playtest">true</set>
+			<set name="release">20200918</set>
+		</setters>
+	</element>
+</elements> 
