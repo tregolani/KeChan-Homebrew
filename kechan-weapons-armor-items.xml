@@ -4,13 +4,14 @@
     <name>KeChan Weapons, Armors, and Items</name>
     <description>Magical weapons, armors, and items for KeChan's personal use</description>
     <author>Homebrew</author>
-    <update version="1.1">
+    <update version="1.1.1">
       <file name="kechan-weapons-armor-items.xml" url="https://raw.githubusercontent.com/tregolani/KeChan-Homebrew/master/kechan-weapons-armor-items.xml" />
     </update>
   </info>
   	<element name="Blessed Bracers" type="Magic Item" source="KeChan Homebrew Collection" id="ID_KECHAN_HB_MAGIC_ITEM_BLESSED BRACERS">
 		<description>
 			<p>These simple studded leather bracers have the holy symbol of Procan emblazoned into the leather. Those who wear them can feel the power of his blessing coursing through their mind and body.</p>
+			<p>While you are wearing these bracers, you gain a +4 to Wisdom (Insight) and Intelligence (Religion) checks, as well as a +2 to AC.</p>
 		</description>
 		<setters>
 			<set name="keywords"></set>
