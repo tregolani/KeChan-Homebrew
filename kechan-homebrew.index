@@ -4,12 +4,13 @@
     <name>KeChan Homebrew Collection</name>
 	<description>A collection of homebrew stuff for Ke-Chan</description>
 	<author>"Tregolani"</author>  
-    <update version="1.2">
+    <update version="1.3">
       <file name="kechan-homebrew.index" url="https://raw.githubusercontent.com/tregolani/KeChan-Homebrew/master/kechan-homebrew.index" />
     </update>
   </info>
   <files>
 	<file name="kechan-source.xml" url="https://raw.githubusercontent.com/tregolani/KeChan-Homebrew/master/kechan-source.xml" />
+	<file name="homebrew-wisdom-sorcerer-revised.xml" url="https://raw.githubusercontent.com/tregolani/KeChan-Homebrew/master/homebrew-wisdom-sorcerer-revised.xml" />
 	<file name="kechan-weapons-armor-items.xml" url="https://raw.githubusercontent.com/tregolani/KeChan-Homebrew/master/kechan-weapons-armor-items.xml" />
   </files>
 </index>
