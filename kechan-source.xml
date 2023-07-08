@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.1">
+		<update version="0.2">
 			<file name="kechan-source.xml" url="https://raw.githubusercontent.com/tregolani/KeChan-Homebrew/master/kechan-source.xml" />
 		</update>
 	</info>
@@ -11,7 +11,7 @@
       			<ul>
               <li><strong>Items:</strong> Blessed Bracers</li>
               <li><strong>Spells:</strong> </li>
-              <li><strong>Classes:</strong> </li>
+              <li><strong>Classes:</strong> Sorcerer (Wisdom) </li>
               <li><strong>Subclasses:</strong> </li>
             </ul>]]>
       </description>
