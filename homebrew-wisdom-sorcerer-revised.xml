@@ -4,11 +4,11 @@
 		<name>Tregolani Homebrew Wisdom Sorcerer</name>
 		<description>Revised Wisdom-based Sorcerer based on Tasha's Cauldron of Everything optional content as well as homebrew changes by /u/Lavanis</description>
 		<author>Tregolani</author>
-		<update version="0.1.3">
+		<update version="0.1.4">
 			<file name="homebrew-wisdom-sorcerer-revised.xml" url="https://raw.githubusercontent.com/tregolani/KeChan-Homebrew/master/homebrew-wisdom-sorcerer-revised.xml" />
 		</update>
 	</info>
-	<element name="Sorcerer (Wisdom)" type="Class" source="Tregolani Homebrew Collection" id="ID_TREGOLANI_HB_CLASS_SORCERER_WISDOM">
+	<element name="Wisdom Sorcerer" type="Class" source="Tregolani Homebrew Collection" id="ID_TREGOLANI_HB_CLASS_SORCERER_WISDOM">
 		<description>
 			<p>Golden eyes flashing, a human stretches out her hand and unleashes the dragonfire that burns in her veins. As an inferno rages around her foes, leathery wings spread from her back and she takes to the air.</p>
 			<p class="indent">Long hair whipped by a conjured wind, a half-elf spreads his arms wide and throws his head back. Lifting him momentarily off the ground, a wave of magic surges up in him, through him, and out from him in a mighty blast of lightning.</p>
@@ -80,7 +80,7 @@
 			</table>
 			<div element="ID_TREGOLANI_HB_CLASS_FEATURE_SORCERER_WISDOM_SPELLCASTING_SORCERER" />
 			<div element="ID_TREGOLANI_HB_CLASS_FEATURE_SORCERER_WISDOM_SORCEROUS_ORIGIN" />
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC" />
+			<div element="ID_TREGOLANI_HB_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC" />
 			<div element="ID_TREGOLANI_HB_CLASS_FEATURE_SORCERER_WISDOM_CATALYST_OF_MAGIC" />
 			<div element="ID_TREGOLANI_HB_CLASS_FEATURE_SORCERER_WISDOM_METAMAGIC" />
 			<div element="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT_SORCERER" />
@@ -108,7 +108,7 @@
 			<grant type="Class Feature" id="ID_TREGOLANI_HB_CLASS_FEATURE_SORCERER_WISDOM_SPELLCASTING_SORCERER" level="1" />
 			<grant type="Class Feature" id="ID_TREGOLANI_HB_CLASS_FEATURE_SORCERER_WISDOM_SORCEROUS_ORIGIN" level="1"/>
 <!--			<grant type="Class Feature" id="ID_TREGOLANI_HB_CLASS_FEATURE_SORCERER_SPELL_VERSATILITY" level="1" /> -->
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC" level="2" />
+			<grant type="Class Feature" id="ID_TREGOLANI_HB_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC" level="2" />
 			<grant type="Class Feature" id="ID_TREGOLANI_HB_CLASS_FEATURE_SORCERER_WISDOM_CATALYST_OF_MAGIC" level="2" />
 			<grant type="Class Feature" id="ID_TREGOLANI_HB_CLASS_FEATURE_SORCERER_WISDOM_METAMAGIC" level="3" />
 			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT_SORCERER" level="4" />
@@ -232,7 +232,7 @@
 				<extend>ID_PHB_SPELL_FORESIGHT</extend>
 		</spellcasting>
 	</element>-->
-<!--	<element name="Font of Magic" type="Class Feature" source="Tregolani Homebrew Collection" id="ID_TREGOLANI_HB_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC">
+	<element name="Font of Magic" type="Class Feature" source="Tregolani Homebrew Collection" id="ID_TREGOLANI_HB_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC">
 		<description>
 			<p>At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects.</p>
 			<h5>SORCERY POINTS</h5>
@@ -261,15 +261,15 @@
 			<p class="indent"><strong><em>Converting a Spell Slot to Sorcery Points.</em></strong> As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot’s level.</p>
 		</description>
 		<sheet action="Sorcery Point Usage">
-			<description>You have {{sorcery-points}} Sorcery Points, and can use them as a bonus action in the following ways:
+			<description>You have {{sorcery-points-wis}} Sorcery Points, and can use them as a bonus action in the following ways:
 			&#13;&#10;• You can transform unexpended sorcery points into one spell slot (2 > 1st, 3 > 2nd, 5 > 3rd, 6 > 4th, 7 > 5th) on your turn
 			&#13;&#10;• You can expend one spell slot and gain a number of sorcery points equal to the slot’s level
 			</description>
 		</sheet>
 		<rules>
-			<stat name="sorcery-points" value="level:sorcerer" />
+			<stat name="sorcery-points-wis" value="level:wisdom sorcerer" />
 		</rules>
-	</element>-->
+	</element>
 	<element name="Catalyst of Magic" type="Class Feature" source="Tregolani Homebrew Collection" id="ID_TREGOLANI_HB_CLASS_FEATURE_SORCERER_WISDOM_CATALYST_OF_MAGIC">
 		<description>
 			<p>At 2nd level, as your control over your innate magic grows, you can now use yourself as an arcane focus for your spells. Additionally, by spending 2 sorcery points as a reaction, you can allow a creature touching you to use your body as an arcane focus for spells they cast until the start of your next turn.</p>
@@ -294,7 +294,7 @@
 			<select type="Class Feature" name="Metamagic" supports="Metamagic" level="17" number="2"/>
 		</rules>
 	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT_SORCERER">
+<!--	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT_SORCERER">
 		<compendium display="false" />
 		<description>
 			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
@@ -308,8 +308,8 @@
 			<select type="Class Feature" name="Improvement Option (Sorcerer 16)" supports="Improvement Option,Sorcerer,16" level="16" />
 			<select type="Class Feature" name="Improvement Option (Sorcerer 19)" supports="Improvement Option,Sorcerer,19" level="19" />
 		</rules>
-	</element>
-	<element name="Sorcerous Versatility" type="Class Feature" source="Tregolani Homebrew Collection" id="ID_TREGOLANI_HB_CLASS_FEATURE_SORCERER_WISOM_SORCEROUS_VERSATILITY">
+	</element>-->
+<!--	<element name="Sorcerous Versatility" type="Class Feature" source="Tregolani Homebrew Collection" id="ID_TREGOLANI_HB_CLASS_FEATURE_SORCERER_WISOM_SORCEROUS_VERSATILITY">
 		<description>
 			<p>When you reach 4th level, and any level after that which grants the Ability Score Improvement feature, you can do one of the following, representing the magic within you flowing in new ways:</p>
 			<ul>
@@ -318,7 +318,7 @@
 			</ul>
 		</description>
 		<sheet display="false" />
-	</element>
+	</element>-->
 	<element name="Magical Guidance" type="Class Feature" source="Tregolani Homebrew Collection" id="ID_TREGOLANI_HB_CLASS_FEATURE_SORCERER_WISDOM_MAGICAL_GUIDANCE">
 		<description>
 			<p>When you reach 5th level, you can tap into your inner wellspring of magic to try to conjure success from failure. When you make an ability check that fails, you can spend 1 sorcery point to reroll the d20, and you must use the new roll, potentially turning the failure into a success.</p>
