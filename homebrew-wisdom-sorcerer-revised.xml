@@ -370,7 +370,7 @@
 		<description>
 			<p>When you cast a spell that affects an area, you can spend 1 sorcery point, and choose a number of creatures up to your Wisdom modifier in the area (minimum of one creature). A chosen creature is unaffected by the spell.</p>
 		</description>
-		<sheet>
+		<sheet alt="Careful Spell">
 			<description>When you cast a spell that affects an area, you can spend 1 sorcery point, and choose up to {{metamagic careful spell:creatures}} creatures in the area. A chosen creature is unaffected by the spell.</description>
 		</sheet>
 		<rules>
@@ -384,7 +384,7 @@
 			<p>When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Wisdom modifier (minimum of one). You must use the new rolls.</p>
 			<p class="indent">You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.</p>
 		</description>
-		<sheet>
+		<sheet alt="Empowered Spell">
 			<description>When you roll damage for a spell, you can spend 1 sorcery point to reroll {{metamagic empowered spell:rerolls}} damage dice. You must use the new rolls. You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.</description>
 		</sheet>
 		<rules>
@@ -414,7 +414,7 @@
 		<description>
 			<p>When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to increase the spell's range by a number of feet equal to 30 times your Sorcerer level. Alternatively, if you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</p>
 		</description>
-		<sheet>
+		<sheet alt="Distant Spell">
 			<description>When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to increase the spell's range by a number of feet equal to 30 times your Sorcerer level. Alternatively, if you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</description>
 		</sheet>
 	</element>
@@ -423,7 +423,7 @@
 		<description>
 			<p>When you cast a spell that has a duration of 1 minute or longer, you can spend a number of sorcery points equal to the spell's level to increase the duration to its next increment, to a maximum of 24 hours. For example, a duration of 1 minute because 10 minutes, and a duration of 10 minutes becomes an hour.</p>
 		</description>
-		<sheet>
+		<sheet alt="Extended Spell">
 			<description>When you cast a spell that has a duration of 1 minute or longer, you can spend a number of sorcery points equal to the spell's level to increase the duration to its next increment, to a maximum of 24 hours. For example, a duration of 1 minute because 10 minutes, and a duration of 10 minutes becomes an hour.</description>
 		</sheet>
 	</element>
@@ -432,7 +432,7 @@
 		<description>
 			<p>When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on all its saving throws against the spell.</p>
 		</description>
-		<sheet>
+		<sheet alt="Heightened Spell">
 			<description>When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on all its saving throws against the spell.</description>
 		</sheet>
 	</element>
@@ -441,7 +441,7 @@
 		<description>
 			<p>When you cast a spell, you can spend 1 sorcery point to cast it without any somatic, verbal, or material components without a gp cost.</p>
 		</description>
-		<sheet>
+		<sheet alt="Subtle Spell">
 			<description>When you cast a spell, you can spend 1 sorcery point to cast it without any somatic, verbal, or material components without a gp cost.</description>
 		</sheet>
 	</element>
