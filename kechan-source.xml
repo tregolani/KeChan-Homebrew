@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.2">
+		<update version="0.3">
 			<file name="kechan-source.xml" url="https://raw.githubusercontent.com/tregolani/KeChan-Homebrew/master/kechan-source.xml" />
 		</update>
 	</info>
@@ -20,7 +20,7 @@
       			<set name="author">Tregolani</set>
 			<set name="url"></set>
 			<set name="official">false</set>
-			<set name="playtest">true</set>
+			<set name="supplement">true</set>
 			<set name="release">20200918</set>
 		</setters>
 	</element>
